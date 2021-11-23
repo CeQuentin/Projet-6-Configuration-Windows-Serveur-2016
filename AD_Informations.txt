@@ -1,0 +1,7 @@
+Dans ce script nous installons le service Active Directory du seveur Windows.
+
+
+Dans un premier temps nous allons installer trois rôles qui sont AD, DNS et RSAT-AD-Tools avec la commande Install-WindowsFeature.
+Ensuite nous allons créer le domaine de l'active directory en rentrant le nom de domaine et le nom Netbios et mettre en place la configuration de la forêt. 
+
+

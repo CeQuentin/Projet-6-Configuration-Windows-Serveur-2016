@@ -1,0 +1,14 @@
+Dans ce script nous configurons l'adressage IP ainsi que le nom du seveur Windows.
+
+Pour l'adressage IP : 
+
+Dans un premier temps on fait un Get-NetIPConfiguration pour nous donner la configuration actuelle du serveur et
+par la même occasion récupérer l'index d'interface.
+
+Ensuite nous allons rentrer l'adressage IP dans chaque variables. 
+
+Ces variables vont être utilisées par la commande New-NetIPAddress et la commande Set-DnsClientServerAddress.
+
+Pour le Nom :
+
+Nous allons rentrer le nom souhaité du serveur et nous allons utiliser la commande Rename-Computer

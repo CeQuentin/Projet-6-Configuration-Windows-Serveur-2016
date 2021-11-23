@@ -1,0 +1,9 @@
+Dans ce script nous installons le service DHCP du seveur Windows.
+
+
+Dans un premier temps nous allons installer le service DHCP avec la commande Install-WindowsFeature.
+Ensuite nous allons créer un groupe de sécurité DHCP avec la commande Add-DhcpServerSecurityGroup. 
+
+
+
+
